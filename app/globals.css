@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import "tailwindcss";
 
+.container {
+  @apply max-w-[1440px] w-[calc(100%-24px)] mx-auto;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
