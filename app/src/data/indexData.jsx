@@ -233,3 +233,32 @@ export const deliveryData = [
     desc: `Fully deployed on your hosting and ready to convert visitors.`,
   },
 ];
+
+// Faq data
+export const faqData = [
+  {
+    id: 1,
+    qus: "How long does it take?",
+    ans: "5 days from start to finish - design, development, and deployment included.",
+  },
+  {
+    id: 2,
+    qus: "Do you provide revisions?",
+    ans: "Yes, unlimited revisions until you're 100% satisfied with the final result.",
+  },
+  {
+    id: 3,
+    qus: "What's the payment process?",
+    ans: "50% upfront to get started, 50% after final delivery and your approval.",
+  },
+  {
+    id: 4,
+    qus: "Can you deploy on my hosting?",
+    ans: "Absolutely! Deployment is included in every package, on your hosting or ours.",
+  },
+  {
+    id: 5,
+    qus: "Why are your prices so affordable compared to agencies?",
+    ans: "We run lean without big overheads - you get the same agency-level quality at a fraction of the cost.",
+  },
+];
