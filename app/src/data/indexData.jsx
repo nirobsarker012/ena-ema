@@ -17,6 +17,11 @@ import Mac4 from "../assets/MacbookImg/Macbook Pro 16_-4.svg";
 import GreenRightIcon from "../assets/icons/greenRight.svg";
 import ArrowRightIcon from "../assets/icons/ArrowRight.svg";
 import UserIcon from "../assets/icons/User.svg";
+import LinkdinIcon from "../assets/social_icons/linkedin-line.svg";
+import FaceBook from "../assets/social_icons/facebook.svg";
+import Instagra from "../assets/social_icons/insta.svg";
+import BeIcon from "../assets/social_icons/ri_behance-fill.svg";
+import Dribble from "../assets/social_icons/dribble.svg";
 export const heroFormItem = [
   {
     id: 1,
@@ -260,5 +265,24 @@ export const faqData = [
     id: 5,
     qus: "Why are your prices so affordable compared to agencies?",
     ans: "We run lean without big overheads - you get the same agency-level quality at a fraction of the cost.",
+  },
+];
+
+// Footer Icons
+export const footerIcon = [
+  {
+    icon: LinkdinIcon,
+  },
+  {
+    icon: FaceBook,
+  },
+  {
+    icon: Instagra,
+  },
+  {
+    icon: BeIcon,
+  },
+  {
+    icon: Dribble,
   },
 ];

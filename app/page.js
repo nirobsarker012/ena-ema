@@ -5,6 +5,7 @@ import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
 import Delivery from "./src/components/Delivery/Delivery";
 import Faq from "./src/components/FAQ/Faq";
+import Footer from "./src/components/Footer/Footer";
 import Hero from "./src/components/Hero/Hero";
 import Navbar from "./src/components/Navbar/Navbar";
 import Price from "./src/components/Price/Price";
@@ -49,6 +50,8 @@ export default function Home() {
         <div className="bg-[#0A0F0D] py-[120px]">
           <RealCustomer />
         </div>
+        {/* Footer */}
+        <Footer />
       </div>
     </>
   );
