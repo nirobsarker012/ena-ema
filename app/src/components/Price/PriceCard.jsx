@@ -8,8 +8,15 @@ const PriceCard = () => {
       {priceCardData.map((data) => (
         <div
           key={data.id}
-          className="bg-card-bg rounded-2xl p-6 sm:p-8 lg:p-9 w-full max-w-[368px] mx-auto"
+          className={`bg-card-bg rounded-2xl relative p-6 sm:p-8 lg:p-9 w-full max-w-[368px] mx-auto ${
+            data.isPopular ? "border-2 border-primary" : ""
+          }`}
         >
+          {data.isPopular && (
+            <span className="absolute top-0 left-10 -translate-y-1/2 border-2 border-primary py-1 px-2 rounded-4xl bg-card-bg text-primary text-[12px]">
+              Most Popular
+            </span>
+          )}
           {/* Header */}
           <div className="flex items-start justify-between">
             <div className="flex flex-col space-y-3.5">

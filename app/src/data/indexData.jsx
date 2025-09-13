@@ -173,6 +173,7 @@ export const priceCardData = [
     price: 300,
     icon: ArrowRightIcon,
     btnTitle: "Start my project",
+    isPopular: true,
     priceLink: [
       {
         title: "Everything in Basic",
