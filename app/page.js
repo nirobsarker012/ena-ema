@@ -1,6 +1,7 @@
 "use client";
 import AutoScroll from "./src/components/AutoScroll/AutoScroll";
 import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
+import BusinessTrust from "./src/components/Business/BusinessTrust";
 import Hero from "./src/components/Hero/Hero";
 import Navbar from "./src/components/Navbar/Navbar";
 
@@ -29,6 +30,9 @@ export default function Home() {
 
         {/* Auto Scroll Section */}
         <AutoScrollMarquee />
+
+        {/* Business Trust */}
+        <BusinessTrust />
       </div>
     </>
   );

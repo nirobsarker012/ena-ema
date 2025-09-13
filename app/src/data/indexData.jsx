@@ -4,6 +4,12 @@ import PhoneIconn from "../assets/icons/Phone.svg";
 import SecureIcon from "../assets/icons/Lock-white.svg";
 import CheckIcon from "../assets/icons/White-check.svg";
 import StarIcon from "../assets/icons/whiteStar.svg";
+import RocketIcon from "../assets/icons/RocketLaunch.svg";
+import PaletteIcon from "../assets/icons/Palette.svg";
+import LightIcon from "../assets/icons/Lightning.svg";
+import DollarIcon from "../assets/icons/CurrencyDollar.svg";
+import ClockWiseIcon from "../assets/icons/ArrowsClockwise.svg";
+import TrophyIcon from "../assets/icons/Trophy.svg";
 
 export const heroFormItem = [
   {
@@ -39,5 +45,45 @@ export const satisFaction = [
     id: 3,
     title: "Satisfaction guaranteed",
     icon: StarIcon,
+  },
+];
+
+// Business cart data
+export const businessData = [
+  {
+    id: 1,
+    title: "Proven Conversion Framework",
+    desc: "Designs based on 100+ tested layouts that actually convert visitors into customers.",
+    icon: RocketIcon,
+  },
+  {
+    id: 2,
+    title: "Agency Level Design",
+    desc: "Modern, premium, and tailored for your brand - without the agency price tag.",
+    icon: PaletteIcon,
+  },
+  {
+    id: 3,
+    title: "5-day Guaranteed Delivery",
+    desc: "With a highly professional team, we deliver on time, everytime.",
+    icon: LightIcon,
+  },
+  {
+    id: 4,
+    title: "Transparent Pricing",
+    desc: "No hidden fees, just clear value. What you see is what you pay.",
+    icon: DollarIcon,
+  },
+  {
+    id: 5,
+    title: "Revisions Until You're Happy",
+    desc: "We keep working until it's right. Your satisfaction is guaranteed.",
+    icon: ClockWiseIcon,
+  },
+  {
+    id: 6,
+    title: "Results That Speak",
+    desc: "Our pages consistently outperform industry averages for conversions.",
+    icon: TrophyIcon,
   },
 ];
