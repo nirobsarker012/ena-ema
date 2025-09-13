@@ -93,7 +93,7 @@ export const businessData = [
 ];
 
 // Studies Data
-const studiesData = [
+export const studiesData = [
   {
     id: 1,
     macImage: Mac1,
@@ -111,16 +111,16 @@ const studiesData = [
     icon: GreenRightIcon,
   },
   {
-    id: 1,
+    id: 3,
     title: "Flowpilot",
-    macImage: Mac1,
+    macImage: Mac3,
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",
     icon: GreenRightIcon,
   },
   {
-    id: 1,
-    macImage: Mac1,
+    id: 4,
+    macImage: Mac4,
     title: "GrowthSummit",
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",

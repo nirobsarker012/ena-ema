@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
 @import "tailwindcss";
-
 .container {
   @apply max-w-[1440px] w-[calc(100%-24px)] mx-auto;
 }
