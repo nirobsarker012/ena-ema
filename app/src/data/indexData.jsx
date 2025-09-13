@@ -16,6 +16,7 @@ import Mac3 from "../assets/MacbookImg/MacBook Pro 16_ - 3.svg";
 import Mac4 from "../assets/MacbookImg/Macbook Pro 16_-4.svg";
 import GreenRightIcon from "../assets/icons/greenRight.svg";
 import ArrowRightIcon from "../assets/icons/ArrowRight.svg";
+import UserIcon from "../assets/icons/User.svg";
 export const heroFormItem = [
   {
     id: 1,
@@ -205,5 +206,30 @@ export const priceCardData = [
         title: "Performance Optimization",
       },
     ],
+  },
+];
+
+// Delivery Data
+export const deliveryData = [
+  {
+    id: 1,
+    dayNum: 1,
+    icon: UserIcon,
+    title: "Book Your Project",
+    desc: `Fill out a short form and we'll get started immediately.`,
+  },
+  {
+    id: 2,
+    dayNum: 2,
+    icon: PaletteIcon,
+    title: "Design & Development",
+    desc: `Unlimited revisions until perfect. You're involved every step.`,
+  },
+  {
+    id: 3,
+    dayNum: 3,
+    icon: RocketIcon,
+    title: "Launch",
+    desc: `Fully deployed on your hosting and ready to convert visitors.`,
   },
 ];

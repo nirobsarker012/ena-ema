@@ -3,6 +3,7 @@ import Ability from "./src/components/Abilty/Ability";
 import AutoScroll from "./src/components/AutoScroll/AutoScroll";
 import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
+import Delivery from "./src/components/Delivery/Delivery";
 import Hero from "./src/components/Hero/Hero";
 import Navbar from "./src/components/Navbar/Navbar";
 import Price from "./src/components/Price/Price";
@@ -30,12 +31,16 @@ export default function Home() {
         <AutoScrollMarquee />
         {/* Business Trust */}
         <BusinessTrust />
-        {/* Study */}
-        <Studies />
-        {/* Price Section */}
-        <Price />
-        {/* Abilty Section */}
-        <Ability />
+        <div className="bg-[#0A0F0D] py-[120px]">
+          {/* Study */}
+          <Studies />
+          {/* Price Section */}
+          <Price />
+          {/* Abilty Section */}
+          <Ability />
+        </div>
+        {/* Delivery Section */}
+        <Delivery />
       </div>
     </>
   );
