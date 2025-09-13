@@ -8,6 +8,7 @@ import Faq from "./src/components/FAQ/Faq";
 import Hero from "./src/components/Hero/Hero";
 import Navbar from "./src/components/Navbar/Navbar";
 import Price from "./src/components/Price/Price";
+import RealCustomer from "./src/components/RealCustomer/RealCustomer";
 import Studies from "./src/components/Studies/Studies";
 
 export default function Home() {
@@ -44,6 +45,10 @@ export default function Home() {
         <Delivery />
         {/* Faq Section */}
         <Faq />
+        {/* Real Customer-section */}
+        <div className="bg-[#0A0F0D] py-[120px]">
+          <RealCustomer />
+        </div>
       </div>
     </>
   );
