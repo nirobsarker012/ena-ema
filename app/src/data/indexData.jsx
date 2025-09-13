@@ -22,6 +22,10 @@ import FaceBook from "../assets/social_icons/facebook.svg";
 import Instagra from "../assets/social_icons/insta.svg";
 import BeIcon from "../assets/social_icons/ri_behance-fill.svg";
 import Dribble from "../assets/social_icons/dribble.svg";
+import clientImg1 from "../assets/ClientImg/client1.svg";
+import clientImg2 from "../assets/ClientImg/client2.svg";
+import clientImg3 from "../assets/ClientImg/client3.svg";
+import clientImg4 from "../assets/ClientImg/client4.svg";
 export const heroFormItem = [
   {
     id: 1,
@@ -236,6 +240,43 @@ export const deliveryData = [
     icon: RocketIcon,
     title: "Launch",
     desc: `Fully deployed on your hosting and ready to convert visitors.`,
+  },
+];
+
+// CLient Data
+
+export const clientData = [
+  {
+    id: 1,
+    desc: `"They delivered a landing page better than agencies charging 10x more. My conversion rate doubled within the first week!"`,
+    name: "Sarah Johnson",
+    deg: "SaaS Founder",
+    rating: 5,
+    img: clientImg1,
+  },
+  {
+    id: 2,
+    desc: `“Fast, reliable, and professional. My conversions doubled and I'm getting more quality leads than ever before."`,
+    name: "Mike Chen",
+    deg: "Fitness Coach",
+    rating: 4,
+    img: clientImg2,
+  },
+  {
+    id: 3,
+    desc: `"Best investment for my business. The ROI was immediate and substantial. Will definitely order again."`,
+    name: "Amanda Rodriguez",
+    deg: "E-Commerce Owner",
+    rating: 5,
+    img: clientImg3,
+  },
+  {
+    id: 4,
+    desc: `"They delivered a landing page better than agencies charging 10x more. My conversion rate doubled within the first week!"`,
+    name: "David Lee",
+    deg: "SaaS Founder",
+    rating: 4,
+    img: clientImg4,
   },
 ];
 

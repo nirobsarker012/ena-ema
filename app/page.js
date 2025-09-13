@@ -3,6 +3,7 @@ import Ability from "./src/components/Abilty/Ability";
 import AutoScroll from "./src/components/AutoScroll/AutoScroll";
 import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
+import Clients from "./src/components/Clients/Clients";
 import Delivery from "./src/components/Delivery/Delivery";
 import Faq from "./src/components/FAQ/Faq";
 import Footer from "./src/components/Footer/Footer";
@@ -44,6 +45,8 @@ export default function Home() {
         </div>
         {/* Delivery Section */}
         <Delivery />
+        {/* Client Says section */}
+        <Clients />
         {/* Faq Section */}
         <Faq />
         {/* Real Customer-section */}

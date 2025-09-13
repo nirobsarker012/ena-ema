@@ -7,6 +7,10 @@
   @apply max-w-[1300px] w-[calc(100%-24px)] mx-auto;
 }
 
+.container-overflow {
+  @apply w-full pl-[15px] ml-auto;
+}
+
 :root {
   --foreground: #ffffff;
   --background: rgba(10, 18, 15, 0.951);
@@ -31,6 +35,28 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .container-overflow {
+    max-width: calc(640px + ((100% - 640px) / 2));
+  }
+
+  @media (min-width: 768px) {
+    .container-overflow {
+      max-width: calc(768px + ((100% - 768px) / 2));
+    }
+  }
+  @media (min-width: 1024px) {
+    .container-overflow {
+      max-width: calc(1024px + ((100% - 1024px) / 2));
+    }
+  }
+  @media (min-width: 1170px) {
+    .container-overflow {
+      max-width: calc(1170px + ((100% - 1170px) / 2));
+    }
   }
 }
 
