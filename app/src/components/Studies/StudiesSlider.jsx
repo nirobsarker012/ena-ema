@@ -33,7 +33,7 @@ const StudiesSlider = () => {
                 className="w-full h-auto object-cover rounded-lg"
               />
               <div className="flex flex-col sm:flex-row justify-between mt-2 gap-2">
-                <h1 className="text-base sm:text-lg md:text-xl font-bold">
+                <h1 className="text-base sm:text-lg md:text-xl font-bold font-manrope">
                   {data.title}
                 </h1>
                 <div className="flex flex-col gap-2 sm:gap-2">

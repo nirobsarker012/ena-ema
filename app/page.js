@@ -4,6 +4,7 @@ import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
 import Hero from "./src/components/Hero/Hero";
 import Navbar from "./src/components/Navbar/Navbar";
+import Price from "./src/components/Price/Price";
 import Studies from "./src/components/Studies/Studies";
 
 export default function Home() {
@@ -30,6 +31,8 @@ export default function Home() {
         <BusinessTrust />
         {/* Study */}
         <Studies />
+        {/* Price Section */}
+        <Price />
       </div>
     </>
   );

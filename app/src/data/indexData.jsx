@@ -15,6 +15,7 @@ import Mac2 from "../assets/MacbookImg/MacBook Pro 16_ - 2.svg";
 import Mac3 from "../assets/MacbookImg/MacBook Pro 16_ - 3.svg";
 import Mac4 from "../assets/MacbookImg/Macbook Pro 16_-4.svg";
 import GreenRightIcon from "../assets/icons/greenRight.svg";
+import ArrowRightIcon from "../assets/icons/ArrowRight.svg";
 export const heroFormItem = [
   {
     id: 1,
@@ -125,5 +126,81 @@ export const studiesData = [
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",
     icon: GreenRightIcon,
+  },
+];
+
+// Price Data
+export const priceCardData = [
+  {
+    id: 1,
+    name: "Basic",
+    desc: "Perfect for solopreneurs",
+    price: 200,
+    icon: ArrowRightIcon,
+    btnTitle: "Start my project",
+    priceLink: [
+      {
+        title: "1 Landing Page (Design + Development)",
+      },
+      {
+        title: "Hosting Deployment",
+      },
+      {
+        title: "5-Day Delivery",
+      },
+      {
+        title: "Basic Support",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Standard",
+    desc: "Best balance of value & features",
+    price: 300,
+    icon: ArrowRightIcon,
+    btnTitle: "Start my project",
+    priceLink: [
+      {
+        title: "Everything in Basic",
+      },
+      {
+        title: "Extra Custom Section",
+      },
+      {
+        title: "Free Hosting Setup",
+      },
+      {
+        title: "Free Consultation Call",
+      },
+      {
+        title: "Priority Support",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Premium",
+    desc: "For brands & agencies",
+    price: 500,
+    icon: ArrowRightIcon,
+    btnTitle: "Start my project",
+    priceLink: [
+      {
+        title: "Everything in Standard",
+      },
+      {
+        title: "Advanced Animations",
+      },
+      {
+        title: "Priority Delivery (3 Days)",
+      },
+      {
+        title: "6 Months Free Support",
+      },
+      {
+        title: "Performance Optimization",
+      },
+    ],
   },
 ];
