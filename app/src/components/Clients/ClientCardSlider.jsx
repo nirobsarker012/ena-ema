@@ -34,13 +34,13 @@ const ClientCardSlider = () => {
                 <Rating value={data.rating} />
               </div>
               {/* Desc */}
-              <p className="mb-[36px] text-[16px]">{data.desc}</p>
+              <p className="mb-[36px] text-[16px] font-general">{data.desc}</p>
               {/* Client Info */}
               <div className="flex items-center gap-[12px]">
                 <Image src={data.img} alt={data.name} />
                 <div className="flex flex-col gap-y-[2px]">
-                  <h4 className="text-[16px]">{data.name}</h4>
-                  <span className="text-[12px] text-text-secondary-light">
+                  <h4 className="text-[16px] font-general">{data.name}</h4>
+                  <span className="text-[12px] font-general text-text-secondary-light">
                     {data.deg}
                   </span>
                 </div>

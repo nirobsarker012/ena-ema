@@ -17,7 +17,7 @@ const RealCustomer = () => {
           </h1>
 
           {/* RealCustom Desc */}
-          <p className="max-w-2xl md:max-w-3xl lg:max-w-4xl text-text-secondary-light mt-4 text-sm sm:text-base md:text-lg">
+          <p className="max-w-2xl md:max-w-3xl font-general lg:max-w-4xl text-text-secondary-light mt-4 text-sm sm:text-base md:text-lg">
             Don't settle for an average page. Get a premium, conversion-focused
             landing page that pays for itself.
           </p>

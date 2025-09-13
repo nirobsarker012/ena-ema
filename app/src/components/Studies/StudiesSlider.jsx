@@ -41,7 +41,7 @@ const StudiesSlider = () => {
                     <Image
                       src={data.icon}
                       alt=""
-                      className="inline-block mr-2 w-3 h-3 sm:w-4 sm:h-4"
+                      className="inline-block font-general mr-2 w-3 h-3 sm:w-4 sm:h-4"
                     />
                     {data.desc1}
                   </span>
@@ -49,7 +49,7 @@ const StudiesSlider = () => {
                     <Image
                       src={data.icon}
                       alt=""
-                      className="inline-block mr-2 w-3 h-3 sm:w-4 sm:h-4"
+                      className="inline-block font-general mr-2 w-3 h-3 sm:w-4 sm:h-4"
                     />
                     {data.desc2}
                   </span>

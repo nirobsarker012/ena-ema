@@ -40,7 +40,7 @@ const Faq = () => {
                       : "max-h-0 opacity-0"
                   }`}
                 >
-                  <p className="text-text-secondary-light text-base sm:text-lg lg:text-[18px] leading-relaxed">
+                  <p className="text-text-secondary-light font-general text-base sm:text-lg lg:text-[18px] leading-relaxed">
                     {data.ans}
                   </p>
                 </div>

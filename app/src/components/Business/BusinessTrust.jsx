@@ -12,7 +12,7 @@ const BusinessTrust = () => {
           Their Designs
         </h1>
         {/* Desc */}
-        <p className="text-sm sm:text-base md:text-[16px] max-w-2xl mt-2">
+        <p className="text-sm font-general sm:text-base md:text-[16px] max-w-2xl mt-2">
           We combine proven conversion frameworks with agency-level design to
           deliver results that matter.
         </p>

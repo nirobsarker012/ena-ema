@@ -12,7 +12,7 @@ const Studies = () => {
           Case Studies
         </h1>
         {/* Desc */}
-        <p className="font-manrope text-[16px] text-client-text">
+        <p className="font-general text-[16px] text-client-text">
           See the designs that delivered results
         </p>
       </div>
@@ -20,7 +20,7 @@ const Studies = () => {
       <StudiesSlider />
       {/* Btn */}
       <div className=" contaier max-w-[244px] mx-auto">
-        <button className="mt-6 mb-[120px] w-full inline-flex justify-center text-[12px] px-1.5 lg:px-0 items-center gap-3 bg-primary py-4 text-primary-dark lg:text-[16px] rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-5 cursor-pointer">
+        <button className="mt-6 font-general mb-[120px] w-full inline-flex justify-center text-[12px] px-1.5 lg:px-0 items-center gap-3 bg-primary py-4 text-primary-dark lg:text-[16px] rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-5 cursor-pointer">
           I want similar results
           <Image src={RightIcon} />
         </button>

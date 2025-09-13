@@ -12,11 +12,9 @@ const DeliveryCart = () => {
             className="p-9 bg-[#192420] rounded-lg max-w-[300px] mx-auto relative"
           >
             {/* Days show num */}
-            {data.isPopular && (
-              <span className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-primary border border-primary px-2 rounded-full">
-                Days {data.dayNum}
-              </span>
-            )}
+            <span className="absolute font-general top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-primary border border-primary px-2 rounded-full">
+              Days {data.dayNum}
+            </span>
 
             <div className="mx-auto mb-9 bg-[#003D25] flex items-center justify-center w-20 aspect-square rounded-full">
               <Image
@@ -28,10 +26,10 @@ const DeliveryCart = () => {
 
             {/* desc */}
             <div className="text-center">
-              <h3 className="text-lg font-medium text-client-text mb-2">
+              <h3 className="text-lg font-medium font-general text-client-text mb-2">
                 {data.title}
               </h3>
-              <p className="text-shadow-text-secondary-light text-sm">
+              <p className="text-shadow-text-secondary-light font-general text-sm">
                 {data.desc}
               </p>
             </div>

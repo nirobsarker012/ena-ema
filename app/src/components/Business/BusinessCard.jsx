@@ -17,7 +17,7 @@ const BusinessCard = () => {
               className="w-[48px] mb-[36px]"
             />
             <h3 className="font-manrope text-[16px] mb-3">{card.title}</h3>
-            <p className="text-[14px] text-text-secondary-light max-w-[328px]">
+            <p className="text-[14px] font-general text-text-secondary-light max-w-[328px]">
               {card.desc}
             </p>
           </div>

@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         {/* large device */}
 
-        <span className="text-text-light text-[12px] hidden lg:block">
+        <span className="text-text-light font-general text-[12px] hidden lg:block">
           &copy; All rights reserved to Ena Ema Technologies
         </span>
         <div className="lg:flex items-center gap-x-4 hidden">

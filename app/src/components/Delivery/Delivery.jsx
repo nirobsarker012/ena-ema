@@ -13,7 +13,7 @@ const Delivery = () => {
           <span className="text-primary">Just 5 Days</span>
         </h1>
         {/* Desc */}
-        <p className="text-sm sm:text-base md:text-[16px] max-w-2xl mt-2">
+        <p className="text-sm sm:text-base font-general md:text-[16px] max-w-2xl mt-2">
           Our streamlined process ensures fast delivery without compromising
           quality.
         </p>

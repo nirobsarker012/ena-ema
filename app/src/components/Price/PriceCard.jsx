@@ -23,7 +23,7 @@ const PriceCard = () => {
               <h3 className="font-manrope text-lg sm:text-xl lg:text-2xl font-bold mb-2">
                 {data.name}
               </h3>
-              <p className="text-sm sm:text-base text-client-text">
+              <p className="text-sm sm:text-base font-general text-client-text">
                 {data.desc}
               </p>
             </div>
@@ -43,7 +43,9 @@ const PriceCard = () => {
                 className="flex items-center gap-3 text-xs sm:text-sm"
               >
                 <span className="block bg-primary w-1.5 h-1.5 rounded-full"></span>
-                <span className="text-text-secondary-light">{item.title}</span>
+                <span className="text-text-secondary-light font-general">
+                  {item.title}
+                </span>
               </div>
             ))}
           </div>

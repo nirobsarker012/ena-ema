@@ -10,7 +10,7 @@ const RealCustomerSatisfaction = () => {
             <Image
               src={item.icon}
               alt={item.title}
-              className="text-white w-[16px]"
+              className="text-white w-[16px] font-general"
             />
             <span className="text-text-secondary-light text-[12px]">
               {item.title}

@@ -16,7 +16,7 @@ const HeroForm = () => {
               <input
                 type="text"
                 placeholder={item.title}
-                className="w-full text-text-secondary-light border border-text-secondary-light/30 py-4 px-10 rounded-md hover:border-primary ease-in-out duration-300 outline-none bg-transparent"
+                className="w-full font-general text-text-secondary-light border border-text-secondary-light/30 py-4 px-10 rounded-md hover:border-primary ease-in-out duration-300 outline-none bg-transparent"
               />
               <div className="absolute top-4 left-3">
                 <Image
@@ -29,7 +29,7 @@ const HeroForm = () => {
           ))}
         </form>
         <button
-          className="mt-6 w-full inline-flex justify-center text-[12px] px-1.5 lg:px-0 items-center gap-3 bg-primary py-4 text-primary-dark lg:text-[16px] rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-5 cursor-pointer"
+          className="mt-6 font-general w-full inline-flex justify-center text-[12px] px-1.5 lg:px-0 items-center gap-3 bg-primary py-4 text-primary-dark lg:text-[16px] rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-5 cursor-pointer"
           type="submit"
         >
           Get my high-converting landing page

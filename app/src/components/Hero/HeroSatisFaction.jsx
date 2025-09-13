@@ -13,7 +13,7 @@ const HeroSatisFaction = () => {
               alt={item.title}
               className="text-white w-[16px]"
             />
-            <span className="text-text-secondary-light text-[12px]">
+            <span className="text-text-secondary-light font-general text-[12px]">
               {item.title}
             </span>
           </div>

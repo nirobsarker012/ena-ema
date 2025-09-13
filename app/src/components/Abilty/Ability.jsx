@@ -17,7 +17,7 @@ const Ability = () => {
           <h3 className="font-manrope text-xl sm:text-2xl lg:text-[28px] font-bold">
             Limited Availability
           </h3>
-          <p className="text-text-secondary-light text-sm sm:text-base lg:text-[14px] max-w-[600px]">
+          <p className="text-text-secondary-light font-general text-sm sm:text-base lg:text-[14px] max-w-[600px]">
             We only onboard 5 new clients per month. 2 spots left for this month
             — secure yours today.
           </p>
@@ -31,10 +31,10 @@ const Ability = () => {
           <h1 className="font-manrope font-medium text-2xl sm:text-3xl lg:text-[48px] mt-2">
             Special Offer For Early Clients
           </h1>
-          <p className="text-sm sm:text-base lg:text-[16px] mt-3">
+          <p className="text-sm sm:text-base lg:text-[16px] font-general mt-3">
             Get 10% OFF + Free Hosting Setup when you book this week.
           </p>
-          <button className="inline-flex mt-6 sm:mt-8 lg:mt-[48px] justify-center text-xs sm:text-sm lg:text-[16px] px-6 sm:px-8 py-3 sm:py-4 items-center gap-2 sm:gap-3 bg-primary text-primary-dark rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-4 sm:hover:gap-5 cursor-pointer">
+          <button className="inline-flex font-general mt-6 sm:mt-8 lg:mt-[48px] justify-center text-xs sm:text-sm lg:text-[16px] px-6 sm:px-8 py-3 sm:py-4 items-center gap-2 sm:gap-3 bg-primary text-primary-dark rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-4 sm:hover:gap-5 cursor-pointer">
             Claim my 10% discount
             <Image
               src={RightIcon}
