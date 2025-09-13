@@ -4,6 +4,7 @@ import AutoScroll from "./src/components/AutoScroll/AutoScroll";
 import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
 import Delivery from "./src/components/Delivery/Delivery";
+import Faq from "./src/components/FAQ/Faq";
 import Hero from "./src/components/Hero/Hero";
 import Navbar from "./src/components/Navbar/Navbar";
 import Price from "./src/components/Price/Price";
@@ -41,6 +42,8 @@ export default function Home() {
         </div>
         {/* Delivery Section */}
         <Delivery />
+        {/* Faq Section */}
+        <Faq />
       </div>
     </>
   );
