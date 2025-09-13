@@ -1,4 +1,5 @@
 import React from "react";
+import PriceCard from "./PriceCard";
 
 const Price = () => {
   return (
@@ -12,6 +13,8 @@ const Price = () => {
           No hidden fees, no surprises. Just premium landing pages at unbeatable
           prices.
         </p>
+        {/* Price Card section */}
+        <PriceCard />
       </div>
     </section>
   );

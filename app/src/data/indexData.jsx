@@ -151,6 +151,9 @@ export const priceCardData = [
       {
         title: "Basic Support",
       },
+      {
+        title: "Everything in Standard",
+      },
     ],
   },
   {
