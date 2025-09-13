@@ -6,8 +6,8 @@
 }
 
 :root {
+  --foreground: rgba(10, 18, 15, 0.951);
   --background: #ffffff;
-  --foreground: #171717;
 }
 
 @theme inline {

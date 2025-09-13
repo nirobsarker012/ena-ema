@@ -18,11 +18,6 @@ export default function Home() {
         </div>
 
         {/* Hero section below */}
-        <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
-         bg-primary/3.5 w-full h-full blur-3xl z-0"
-        />
-
         {/* Hero content on top */}
         <div className="relative z-10">
           <Hero />
@@ -30,7 +25,6 @@ export default function Home() {
 
         {/* Auto Scroll Section */}
         <AutoScrollMarquee />
-
         {/* Business Trust */}
         <BusinessTrust />
       </div>
