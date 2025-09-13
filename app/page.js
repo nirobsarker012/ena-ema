@@ -1,4 +1,5 @@
 "use client";
+import Ability from "./src/components/Abilty/Ability";
 import AutoScroll from "./src/components/AutoScroll/AutoScroll";
 import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
@@ -33,6 +34,8 @@ export default function Home() {
         <Studies />
         {/* Price Section */}
         <Price />
+        {/* Abilty Section */}
+        <Ability />
       </div>
     </>
   );

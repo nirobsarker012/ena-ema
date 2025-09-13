@@ -4,7 +4,7 @@
 @import "swiper/css/navigation";
 @import "tailwindcss";
 .container {
-  @apply max-w-[1440px] w-[calc(100%-24px)] mx-auto;
+  @apply max-w-[1300px] w-[calc(100%-24px)] mx-auto;
 }
 
 :root {
