@@ -4,6 +4,7 @@ import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
 import Hero from "./src/components/Hero/Hero";
 import Navbar from "./src/components/Navbar/Navbar";
+import Studies from "./src/components/Studies/Studies";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
         <AutoScrollMarquee />
         {/* Business Trust */}
         <BusinessTrust />
+        {/* Study */}
+        <Studies />
       </div>
     </>
   );

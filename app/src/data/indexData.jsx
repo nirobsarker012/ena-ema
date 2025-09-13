@@ -10,7 +10,11 @@ import LightIcon from "../assets/icons/Lightning.svg";
 import DollarIcon from "../assets/icons/CurrencyDollar.svg";
 import ClockWiseIcon from "../assets/icons/ArrowsClockwise.svg";
 import TrophyIcon from "../assets/icons/Trophy.svg";
-
+import Mac1 from "../assets/MacbookImg/MacBook Pro 16_ - 1.svg";
+import Mac2 from "../assets/MacbookImg/MacBook Pro 16_ - 2.svg";
+import Mac3 from "../assets/MacbookImg/MacBook Pro 16_ - 3.svg";
+import Mac4 from "../assets/MacbookImg/Macbook Pro 16_-4.svg";
+import GreenRightIcon from "../assets/icons/greenRight.svg";
 export const heroFormItem = [
   {
     id: 1,
@@ -85,5 +89,41 @@ export const businessData = [
     title: "Results That Speak",
     desc: "Our pages consistently outperform industry averages for conversions.",
     icon: TrophyIcon,
+  },
+];
+
+// Studies Data
+const studiesData = [
+  {
+    id: 1,
+    macImage: Mac1,
+    title: "Flowpilot",
+    desc1: "20% high conversion than average in first week",
+    desc2: "Clean and modern design with clear CTA",
+    icon: GreenRightIcon,
+  },
+  {
+    id: 2,
+    macImage: Mac2,
+    title: "GrowthSummit",
+    desc1: "20% high conversion than average in first week",
+    desc2: "Clean and modern design with clear CTA",
+    icon: GreenRightIcon,
+  },
+  {
+    id: 1,
+    title: "Flowpilot",
+    macImage: Mac1,
+    desc1: "20% high conversion than average in first week",
+    desc2: "Clean and modern design with clear CTA",
+    icon: GreenRightIcon,
+  },
+  {
+    id: 1,
+    macImage: Mac1,
+    title: "GrowthSummit",
+    desc1: "20% high conversion than average in first week",
+    desc2: "Clean and modern design with clear CTA",
+    icon: GreenRightIcon,
   },
 ];
