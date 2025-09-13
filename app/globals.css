@@ -6,8 +6,8 @@
 }
 
 :root {
-  --foreground: rgba(10, 18, 15, 0.951);
-  --background: #ffffff;
+  --foreground: #ffffff;
+  --background: rgba(10, 18, 15, 0.951);
 }
 
 @theme inline {
@@ -33,6 +33,6 @@
 }
 
 body {
-  background: var(--foreground);
-  color: var(--background);
+  background: var(--background);
+  color: var(--foreground);
 }
