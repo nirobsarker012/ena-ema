@@ -14,7 +14,7 @@ const AutoScroll = () => {
               width={700}
               src={img.icon}
               alt=""
-              className="rounded-xl object-contain"
+              className="rounded-xl object-contain w-[350px] lg:w-0"
             />
           </div>
         ))}
