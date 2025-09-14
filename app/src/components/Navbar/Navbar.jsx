@@ -1,13 +1,19 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../../assets/Logo/Logo.svg";
+import { motion } from "motion/react";
 
 const Navbar = () => {
   return (
     <header className="container">
-      <nav className="flex items-center justify-center pt-[30px] pb-[80px]">
+      <motion.nav
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
+        className="flex items-center justify-center pt-[30px] pb-[80px]"
+      >
         <Image src={logo} alt="ena-ema" className="w-[120px]" />
-      </nav>
+      </motion.nav>
     </header>
   );
 };

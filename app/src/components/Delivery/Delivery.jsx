@@ -1,12 +1,19 @@
 import React from "react";
 import DeliveryCart from "./DeliveryCart";
+import { motion } from "motion/react";
+import { fedup } from "../Animation/Animation";
 
 const Delivery = () => {
   return (
     <section className="py-[120px] relative">
       <div className="bg-primary/5 w-[600px] -left-50 h-[400px] blur-3xl rounded-full absolute"></div>
 
-      <div className="flex flex-col items-center justify-center text-center text-[#F5F5F5] gap-y-2 mt-8 sm:mt-12 lg:mt-16">
+      <motion.div
+        variants={fedup(0.3)}
+        initial="hidden"
+        whileInView="show"
+        className="flex flex-col items-center justify-center text-center text-[#F5F5F5] gap-y-2 mt-8 sm:mt-12 lg:mt-16"
+      >
         {/* Title */}
         <h1 className="font-manrope text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-medium leading-snug">
           From Idea to Live Landing Page in{" "}
@@ -17,7 +24,7 @@ const Delivery = () => {
           Our streamlined process ensures fast delivery without compromising
           quality.
         </p>
-      </div>
+      </motion.div>
       {/* Delivery Cart */}
       <DeliveryCart />
     </section>

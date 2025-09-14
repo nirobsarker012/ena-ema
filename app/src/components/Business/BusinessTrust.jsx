@@ -1,11 +1,18 @@
 import React from "react";
 import BusinessCard from "./BusinessCard";
+import { motion } from "motion/react";
+import { fedup } from "../Animation/Animation";
 
 const BusinessTrust = () => {
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8">
       {/* Business Trust Content */}
-      <div className="flex flex-col items-center justify-center text-center text-[#F5F5F5] gap-y-2 mt-8 sm:mt-12 lg:mt-16">
+      <motion.div
+        variants={fedup(0.2)}
+        initial="hidden"
+        whileInView="show"
+        className="flex flex-col items-center justify-center text-center text-[#F5F5F5] gap-y-2 mt-8 sm:mt-12 lg:mt-16"
+      >
         {/* Title */}
         <h1 className="font-manrope text-3xl sm:text-4xl md:text-5xl lg:text-[48px] font-medium leading-snug">
           Why Businesses <span className="text-primary">Trust Us</span> With
@@ -16,7 +23,7 @@ const BusinessTrust = () => {
           We combine proven conversion frameworks with agency-level design to
           deliver results that matter.
         </p>
-      </div>
+      </motion.div>
       {/* Cards */}
       <BusinessCard />
     </section>

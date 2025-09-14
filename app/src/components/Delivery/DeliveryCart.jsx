@@ -1,14 +1,23 @@
 import React from "react";
 import { deliveryData } from "../../data/indexData";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const DeliveryCart = () => {
   return (
     <div className="container mx-auto mt-12 px-4">
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center">
-        {deliveryData.map((data) => (
-          <div
+        {deliveryData.map((data, i) => (
+          <motion.div
             key={data.id}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 1,
+              ease: "easeOut",
+              delay: 0.4 + i * 0.1,
+            }}
             className="p-9 bg-[#192420] rounded-lg max-w-[300px] mx-auto relative"
           >
             {/* Days show num */}
@@ -33,7 +42,7 @@ const DeliveryCart = () => {
                 {data.desc}
               </p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

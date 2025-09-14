@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { faqData } from "../../data/indexData";
+import { motion } from "motion/react";
 
 const Faq = () => {
   const [activeId, setActiveId] = useState(1);
@@ -20,7 +21,11 @@ const Faq = () => {
         {/* FAQ */}
         <div className="flex flex-col space-y-4 sm:space-y-6 lg:space-y-8">
           {faqData.map((data) => (
-            <div
+            <motion.div
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, ease: "easeOut" }}
               key={data.id}
               className="bg-card-bg rounded-lg p-4 sm:p-6 lg:p-8 cursor-pointer transition-all duration-300 ease-in-out"
               onClick={() => toggleAccordation(data.id)}
@@ -45,7 +50,7 @@ const Faq = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

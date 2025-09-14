@@ -3,12 +3,18 @@ import React from "react";
 import SparkleIcon from "../../assets/icons/Sparkle-green.svg";
 import HeroForm from "./HeroForm";
 import HeroSatisFaction from "./HeroSatisFaction";
+import { motion } from "motion/react";
 
 const Hero = () => {
   return (
     <main className="container px-4 md:px-6 lg:px-12">
       {/* Hero Content */}
-      <div className="flex flex-col items-center justify-center text-center">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1 }}
+        className="flex flex-col items-center justify-center text-center"
+      >
         <span className="inline-flex items-center font-general text-text-secondary-light bg-card-bg py-2 px-4 gap-x-2 rounded-full border-t border-primary text-sm md:text-base">
           <Image src={SparkleIcon} alt="Spark" className="w-4 h-4" />
           Trusted by 30+ startups & entrepreneurs worldwide
@@ -26,17 +32,27 @@ const Hero = () => {
           conversion-focused landing pages designed, developed, and launched in
           just 5 days.
         </p>
-      </div>
+      </motion.div>
 
       {/* Hero Form */}
-      <div className="flex items-center justify-center mt-8 w-full">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1 }}
+        className="flex items-center justify-center mt-8 w-full"
+      >
         <HeroForm />
-      </div>
+      </motion.div>
 
       {/* Hero Satisfaction */}
-      <div className="mt-6 md:mt-10">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1 }}
+        className="mt-6 md:mt-10"
+      >
         <HeroSatisFaction />
-      </div>
+      </motion.div>
     </main>
   );
 };

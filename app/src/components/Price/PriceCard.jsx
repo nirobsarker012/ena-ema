@@ -51,7 +51,7 @@ const PriceCard = () => {
           </div>
 
           {/* Button */}
-          <button className="flex items-center justify-center gap-2 bg-[#003D25] rounded-lg py-3 sm:py-4 w-full text-[#00E58A] mt-8 sm:mt-10 lg:mt-[46px] hover:bg-primary hover:text-text-light hover:rounded-2xl hover:transition-all hover:duration-300">
+          <button className="flex items-center justify-center gap-2 bg-[#003D25] rounded-lg py-3 sm:py-4 w-full text-[#00E58A] mt-8 sm:mt-10 lg:mt-[46px] hover:bg-primary hover:text-text-light hover:rounded-2xl hover:transition-all hover:duration-300 cursor-pointer">
             {data.btnTitle}
             <Image
               src={data.icon}
