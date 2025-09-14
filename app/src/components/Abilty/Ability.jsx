@@ -1,7 +1,5 @@
 import React from "react";
-import LinghtIcon from "../../assets/icons/Lightning-primary.svg";
 import Image from "next/image";
-import RightIcon from "../../assets/icons/ArrowRight.svg";
 
 const Ability = () => {
   return (
@@ -9,9 +7,11 @@ const Ability = () => {
       {/* Top Info */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 lg:gap-[20px]">
         <Image
-          src={LinghtIcon}
+          width={36}
+          height={36}
+          src={"/assets/icons/Lightning-primary.svg"}
           alt="Limited Icon"
-          className="w-6 sm:w-8 lg:w-auto h-auto"
+          className="h-auto"
         />
         <div className="flex flex-col space-y-2">
           <h3 className="font-manrope text-xl sm:text-2xl lg:text-[28px] font-bold">
@@ -37,9 +37,11 @@ const Ability = () => {
           <button className="inline-flex font-general shadow-[0_6px_18px_#1fffa5]/30 mt-6 sm:mt-8 lg:mt-[48px] justify-center text-xs sm:text-sm lg:text-[16px] px-6 sm:px-8 py-3 sm:py-4 items-center gap-2 sm:gap-3 bg-primary text-primary-dark rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-4 sm:hover:gap-5 cursor-pointer">
             Claim my 10% discount
             <Image
-              src={RightIcon}
+              width={16}
+              height={16}
+              src={"/assets/icons/ArrowRight.svg"}
               alt="Arrow Right"
-              className="w-4 sm:w-5 lg:w-auto h-auto"
+              className=" h-auto"
             />
           </button>
         </div>

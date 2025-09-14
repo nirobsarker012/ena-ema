@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Star from "../../assets/icons/bold-star.svg";
 
 const Rating = ({ value }) => {
   return (
@@ -8,9 +7,9 @@ const Rating = ({ value }) => {
       {Array.from({ length: value }, (_, index) => (
         <Image
           key={index}
-          src={Star}
+          src={"/assets/icons/bold-star.svg"}
           alt="star"
-          width={12}
+          width={16}
           height={12}
           className="inline-block"
         />

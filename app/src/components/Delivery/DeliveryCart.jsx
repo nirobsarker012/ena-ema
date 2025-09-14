@@ -27,6 +27,8 @@ const DeliveryCart = () => {
 
             <div className="mx-auto mb-9 bg-[#003D25] flex items-center justify-center w-20 aspect-square rounded-full">
               <Image
+                width={36}
+                height={36}
                 src={data.icon}
                 alt={data.title}
                 className="w-9 inline-block"

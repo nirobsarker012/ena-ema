@@ -10,6 +10,7 @@ const StudiesSlider = () => {
   return (
     <div className="py-12">
       <Swiper
+        loop={true}
         slidesPerView={1}
         spaceBetween={20}
         centeredSlides={true}
@@ -27,7 +28,7 @@ const StudiesSlider = () => {
         {studiesData.map((data) => (
           <SwiperSlide key={data.id}>
             <div className="w-full max-w-full sm:max-w-[480px] md:max-w-[600px] lg:max-w-[730px] xl:max-w-[930px] p-3 bg-card-bg border border-text-secondary-light/10 rounded-[12px] h-full">
-              <Image
+              <img
                 src={data.macImage}
                 alt={data.title}
                 className="w-full h-auto object-cover rounded-lg"
@@ -38,7 +39,7 @@ const StudiesSlider = () => {
                 </h1>
                 <div className="flex flex-col gap-2 sm:gap-2">
                   <span className="bg-[#003D25] rounded-full py-2 px-4 text-text-secondary-light text-[10px] sm:text-[12px] font-manrope flex items-center">
-                    <Image
+                    <img
                       src={data.icon}
                       alt=""
                       className="inline-block font-general mr-2 w-3 h-3 sm:w-4 sm:h-4"
@@ -46,7 +47,7 @@ const StudiesSlider = () => {
                     {data.desc1}
                   </span>
                   <span className="bg-[#003D25] rounded-full py-2 px-4 text-text-secondary-light text-[10px] sm:text-[12px] font-manrope flex items-center">
-                    <Image
+                    <img
                       src={data.icon}
                       alt=""
                       className="inline-block font-general mr-2 w-3 h-3 sm:w-4 sm:h-4"

@@ -1,6 +1,5 @@
 import React from "react";
 import { heroFormItem } from "../../data/indexData";
-import RightIcon from "../../assets/icons/ArrowRight.svg";
 import Image from "next/image";
 
 const HeroForm = () => {
@@ -20,9 +19,11 @@ const HeroForm = () => {
               />
               <div className="absolute top-4 left-3">
                 <Image
+                  width={16}
+                  height={16}
                   src={item.icon}
                   alt={item.title}
-                  className="inline-block w-4 h-4"
+                  className="inline-block"
                 />
               </div>
             </div>
@@ -33,10 +34,10 @@ const HeroForm = () => {
           type="submit"
         >
           Get my high-converting landing page
-          <Image
-            src={RightIcon}
-            alt="right-icon"
-            className="inline-block w-4 h-4"
+          <img
+            src="/assets/icons/ArrowRight.svg"
+            alt="Arrow"
+            className="size-4"
           />
         </button>
       </div>

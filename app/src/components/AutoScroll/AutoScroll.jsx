@@ -1,5 +1,5 @@
 import React from "react";
-import { autoPlayImg } from "../../assets/assets";
+import { autoPlayImg } from "../../../../public/assets/assets";
 import Image from "next/image";
 
 const AutoScroll = () => {
@@ -10,9 +10,11 @@ const AutoScroll = () => {
         {autoPlayImg.map((img) => (
           <div key={img.id} className="flex-shrink-0">
             <Image
+              height={470}
+              width={700}
               src={img.icon}
               alt=""
-              className="w-[300px] sm:w-[400px] md:w-[500px] lg:w-[700px] rounded-xl object-contain"
+              className="rounded-xl object-contain"
             />
           </div>
         ))}

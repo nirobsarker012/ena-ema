@@ -9,6 +9,8 @@ const HeroSatisFaction = () => {
         {satisFaction.map((item, index) => (
           <div key={index} className="flex items-center gap-x-2">
             <Image
+              width={16}
+              height={16}
               src={item.icon}
               alt={item.title}
               className="text-white w-[16px]"

@@ -1,7 +1,6 @@
 import React from "react";
 import { clientData } from "../../data/indexData";
 import Rating from "../Rating/Rating";
-import Image from "next/image";
 
 // Import Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -37,7 +36,13 @@ const ClientCardSlider = () => {
               <p className="mb-[36px] text-[16px] font-general">{data.desc}</p>
               {/* Client Info */}
               <div className="flex items-center gap-[12px]">
-                <Image src={data.img} alt={data.name} />
+                <img
+                  width={36}
+                  height={36}
+                  src={data.img}
+                  alt={data.name}
+                  className="rounded-[50%]"
+                />
                 <div className="flex flex-col gap-y-[2px]">
                   <h4 className="text-[16px] font-general">{data.name}</h4>
                   <span className="text-[12px] font-general text-text-secondary-light">

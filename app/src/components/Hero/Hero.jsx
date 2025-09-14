@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import SparkleIcon from "../../assets/icons/Sparkle-green.svg";
 import HeroForm from "./HeroForm";
 import HeroSatisFaction from "./HeroSatisFaction";
 import { motion } from "motion/react";
@@ -16,7 +15,12 @@ const Hero = () => {
         className="flex flex-col items-center justify-center text-center"
       >
         <span className="inline-flex items-center font-general text-text-secondary-light bg-card-bg py-2 px-4 gap-x-2 rounded-full border-t border-primary text-sm md:text-base">
-          <Image src={SparkleIcon} alt="Spark" className="w-4 h-4" />
+          <Image
+            width={16}
+            height={16}
+            src={"/assets/icons/Sparkle-green.svg"}
+            alt="Spark"
+          />
           Trusted by 30+ startups & entrepreneurs worldwide
         </span>
 

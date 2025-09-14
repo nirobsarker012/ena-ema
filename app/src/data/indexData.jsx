@@ -1,46 +1,18 @@
-import PersonIcon from "../assets/icons/User.svg";
-import EmailIcon from "../assets/icons/mail.svg";
-import PhoneIconn from "../assets/icons/Phone.svg";
-import SecureIcon from "../assets/icons/Lock-white.svg";
-import CheckIcon from "../assets/icons/White-check.svg";
-import StarIcon from "../assets/icons/whiteStar.svg";
-import RocketIcon from "../assets/icons/RocketLaunch.svg";
-import PaletteIcon from "../assets/icons/Palette.svg";
-import LightIcon from "../assets/icons/Lightning.svg";
-import DollarIcon from "../assets/icons/CurrencyDollar.svg";
-import ClockWiseIcon from "../assets/icons/ArrowsClockwise.svg";
-import TrophyIcon from "../assets/icons/Trophy.svg";
-import Mac1 from "../assets/MacbookImg/MacBook Pro 16_ - 1.svg";
-import Mac2 from "../assets/MacbookImg/MacBook Pro 16_ - 2.svg";
-import Mac3 from "../assets/MacbookImg/MacBook Pro 16_ - 3.svg";
-import Mac4 from "../assets/MacbookImg/Macbook Pro 16_-4.svg";
-import GreenRightIcon from "../assets/icons/greenRight.svg";
-import ArrowRightIcon from "../assets/icons/ArrowRight.svg";
-import UserIcon from "../assets/icons/User.svg";
-import LinkdinIcon from "../assets/social_icons/linkedin-line.svg";
-import FaceBook from "../assets/social_icons/facebook.svg";
-import Instagra from "../assets/social_icons/insta.svg";
-import BeIcon from "../assets/social_icons/ri_behance-fill.svg";
-import Dribble from "../assets/social_icons/dribble.svg";
-import clientImg1 from "../assets/ClientImg/client1.svg";
-import clientImg2 from "../assets/ClientImg/client2.svg";
-import clientImg3 from "../assets/ClientImg/client3.svg";
-import clientImg4 from "../assets/ClientImg/client4.svg";
 export const heroFormItem = [
   {
     id: 1,
     title: "Your name",
-    icon: PersonIcon,
+    icon: "/assets/icons/User.svg",
   },
   {
     id: 2,
     title: "Email Address",
-    icon: EmailIcon,
+    icon: "/assets/icons/mail.svg",
   },
   {
     id: 3,
     title: "Phone Number",
-    icon: PhoneIconn,
+    icon: "/assets/icons/Phone.svg",
   },
 ];
 
@@ -49,17 +21,17 @@ export const satisFaction = [
   {
     id: 1,
     title: "SSL secure",
-    icon: SecureIcon,
+    icon: "/assets/icons/Lock-white.svg",
   },
   {
     id: 2,
     title: "Money-back guaranteed",
-    icon: CheckIcon,
+    icon: "/assets/icons/White-check.svg",
   },
   {
     id: 3,
     title: "Satisfaction guaranteed",
-    icon: StarIcon,
+    icon: "/assets/icons/White-check.svg",
   },
 ];
 
@@ -69,37 +41,37 @@ export const businessData = [
     id: 1,
     title: "Proven Conversion Framework",
     desc: "Designs based on 100+ tested layouts that actually convert visitors into customers.",
-    icon: RocketIcon,
+    icon: "/assets/icons/RocketLaunch.svg",
   },
   {
     id: 2,
     title: "Agency Level Design",
     desc: "Modern, premium, and tailored for your brand - without the agency price tag.",
-    icon: PaletteIcon,
+    icon: "/assets/icons/Palette.svg",
   },
   {
     id: 3,
     title: "5-day Guaranteed Delivery",
     desc: "With a highly professional team, we deliver on time, everytime.",
-    icon: LightIcon,
+    icon: "/assets/icons/Lightning.svg",
   },
   {
     id: 4,
     title: "Transparent Pricing",
     desc: "No hidden fees, just clear value. What you see is what you pay.",
-    icon: DollarIcon,
+    icon: "/assets/icons/CurrencyDollar.svg",
   },
   {
     id: 5,
     title: "Revisions Until You're Happy",
     desc: "We keep working until it's right. Your satisfaction is guaranteed.",
-    icon: ClockWiseIcon,
+    icon: "/assets/icons/ArrowsClockwise.svg",
   },
   {
     id: 6,
     title: "Results That Speak",
     desc: "Our pages consistently outperform industry averages for conversions.",
-    icon: TrophyIcon,
+    icon: "/assets/icons/Trophy.svg",
   },
 ];
 
@@ -107,35 +79,35 @@ export const businessData = [
 export const studiesData = [
   {
     id: 1,
-    macImage: Mac1,
+    macImage: "assets/MacbookImg/MacBookPro1.png",
     title: "Flowpilot",
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",
-    icon: GreenRightIcon,
+    icon: "/assets/icons/greenRight.svg",
   },
   {
     id: 2,
-    macImage: Mac2,
+    macImage: "assets/MacbookImg/MacBookPro2.png",
     title: "GrowthSummit",
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",
-    icon: GreenRightIcon,
+    icon: "/assets/icons/greenRight.svg",
   },
   {
     id: 3,
     title: "Flowpilot",
-    macImage: Mac3,
+    macImage: "assets/MacbookImg/MacBookPro3.png",
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",
-    icon: GreenRightIcon,
+    icon: "/assets/icons/greenRight.svg",
   },
   {
     id: 4,
-    macImage: Mac4,
+    macImage: "assets/MacbookImg/MacBook Pro 16_ - 1.png",
     title: "GrowthSummit",
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",
-    icon: GreenRightIcon,
+    icon: "/assets/icons/greenRight.svg",
   },
 ];
 
@@ -146,7 +118,7 @@ export const priceCardData = [
     name: "Basic",
     desc: "Perfect for solopreneurs",
     price: 200,
-    icon: ArrowRightIcon,
+    icon: "assets/icons/ArrowRight.svg",
     btnTitle: "Start my project",
     priceLink: [
       {
@@ -171,7 +143,7 @@ export const priceCardData = [
     name: "Standard",
     desc: "Best balance of value & features",
     price: 300,
-    icon: ArrowRightIcon,
+    icon: "assets/icons/ArrowRight.svg",
     btnTitle: "Start my project",
     isPopular: true,
     priceLink: [
@@ -197,7 +169,7 @@ export const priceCardData = [
     name: "Premium",
     desc: "For brands & agencies",
     price: 500,
-    icon: ArrowRightIcon,
+    icon: "assets/icons/ArrowRight.svg",
     btnTitle: "Start my project",
     priceLink: [
       {
@@ -224,21 +196,21 @@ export const deliveryData = [
   {
     id: 1,
     dayNum: 1,
-    icon: UserIcon,
+    icon: "assets/icons/User.svg",
     title: "Book Your Project",
     desc: `Fill out a short form and we'll get started immediately.`,
   },
   {
     id: 2,
     dayNum: 2,
-    icon: PaletteIcon,
+    icon: "assets/icons/Palette.svg",
     title: "Design & Development",
     desc: `Unlimited revisions until perfect. You're involved every step.`,
   },
   {
     id: 3,
     dayNum: 3,
-    icon: RocketIcon,
+    icon: "assets/icons/RocketLaunch.svg",
     title: "Launch",
     desc: `Fully deployed on your hosting and ready to convert visitors.`,
   },
@@ -253,7 +225,7 @@ export const clientData = [
     name: "Sarah Johnson",
     deg: "SaaS Founder",
     rating: 5,
-    img: clientImg1,
+    img: "assets/ClientImg/client1.png",
   },
   {
     id: 2,
@@ -261,7 +233,7 @@ export const clientData = [
     name: "Mike Chen",
     deg: "Fitness Coach",
     rating: 4,
-    img: clientImg2,
+    img: "assets/ClientImg/client2.png",
   },
   {
     id: 3,
@@ -269,7 +241,7 @@ export const clientData = [
     name: "Amanda Rodriguez",
     deg: "E-Commerce Owner",
     rating: 5,
-    img: clientImg3,
+    img: "assets/ClientImg/client3.png",
   },
   {
     id: 4,
@@ -277,7 +249,7 @@ export const clientData = [
     name: "David Lee",
     deg: "SaaS Founder",
     rating: 4,
-    img: clientImg4,
+    img: "assets/ClientImg/client4.png",
   },
 ];
 
@@ -313,18 +285,18 @@ export const faqData = [
 // Footer Icons
 export const footerIcon = [
   {
-    icon: LinkdinIcon,
+    icon: "assets/social_icons/linkedin-line.svg",
   },
   {
-    icon: FaceBook,
+    icon: "assets/social_icons/facebook.svg",
   },
   {
-    icon: Instagra,
+    icon: "assets/social_icons/insta.svg",
   },
   {
-    icon: BeIcon,
+    icon: "assets/social_icons/ri_behance-fill.svg",
   },
   {
-    icon: Dribble,
+    icon: "assets/social_icons/dribble.svg",
   },
 ];

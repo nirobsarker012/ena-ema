@@ -1,7 +1,5 @@
 import React from "react";
 import { heroFormItem } from "../../data/indexData";
-import RightIcon from "../../assets/icons/ArrowRight.svg";
-import Image from "next/image";
 const RealCustomerFrom = () => {
   return (
     <section className="mt-12 px-4">
@@ -18,7 +16,9 @@ const RealCustomerFrom = () => {
                 className="w-full font-general text-text-secondary-light border border-text-secondary-light/30 py-4 px-10 rounded-md hover:border-primary ease-in-out duration-300 outline-none bg-transparent"
               />
               <div className="absolute top-4 left-3">
-                <Image
+                <img
+                  width={16}
+                  height={16}
                   src={item.icon}
                   alt={item.title}
                   className="inline-block w-4 h-4"
@@ -32,8 +32,8 @@ const RealCustomerFrom = () => {
           type="submit"
         >
           Get my high-converting landing page
-          <Image
-            src={RightIcon}
+          <img
+            src={"/assets/icons/ArrowRight.svg"}
             alt="right-icon"
             className="inline-block w-4 h-4"
           />

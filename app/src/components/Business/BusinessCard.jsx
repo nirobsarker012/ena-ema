@@ -19,11 +19,13 @@ const BusinessCard = () => {
           }}
           className="p-6 bg-card-bg rounded-[24px] border border-transparent hover:border-primary transition-all duration-300 relative overflow-hidden group"
         >
-          <div className="flex flex-col">
+          <div className="flex flex-col cursor-pointer">
             <Image
+              width={48}
+              height={48}
               src={card.icon}
               alt={card.title}
-              className="w-[48px] mb-[36px]"
+              className="mb-[36px]"
             />
             <h3 className="font-manrope text-[16px] mb-3">{card.title}</h3>
             <p className="text-[14px] font-general text-text-secondary-light max-w-[328px]">
