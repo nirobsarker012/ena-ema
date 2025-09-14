@@ -28,7 +28,7 @@ const RealCustomerFrom = () => {
           ))}
         </form>
         <button
-          className="mt-6 w-full font-general inline-flex justify-center text-[12px] px-1.5 lg:px-0 items-center gap-3 bg-primary py-4 text-primary-dark lg:text-[16px] rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-5 cursor-pointer"
+          className="mt-6 w-full font-general shadow-[0_6px_18px_#1fffa5]/30 inline-flex justify-center text-[12px] px-1.5 lg:px-0 items-center gap-3 bg-primary py-4 text-primary-dark lg:text-[16px] rounded-lg font-medium hover:rounded-2xl transition-all duration-300 hover:gap-5 cursor-pointer"
           type="submit"
         >
           Get my high-converting landing page

@@ -6,7 +6,7 @@ import Image from "next/image";
 const HeroForm = () => {
   return (
     <section className="mt-12 px-4">
-      <div className="bg-card-bg border border-text-secondary-light/30 w-full max-w-5xl mx-auto rounded-lg shadow-primary-light p-6 md:p-10">
+      <div className="bg-card-bg border border-text-secondary-light/30 w-full max-w-5xl mx-auto rounded-lg shadow-[0_6px_18px_#1fffa5]/20 p-6 md:p-10">
         <form className="flex flex-col md:flex-row md:flex-wrap items-center justify-between gap-4 w-full">
           {heroFormItem.map((item, index) => (
             <div
