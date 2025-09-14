@@ -103,7 +103,7 @@ export const studiesData = [
   },
   {
     id: 4,
-    macImage: "assets/MacbookImg/MacBook Pro 16_ - 1.png",
+    macImage: "assets/MacbookImg/MacBookPro1.png",
     title: "GrowthSummit",
     desc1: "20% high conversion than average in first week",
     desc2: "Clean and modern design with clear CTA",
