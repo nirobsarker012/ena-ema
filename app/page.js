@@ -1,6 +1,5 @@
 "use client";
 import Ability from "./src/components/Abilty/Ability";
-import AutoScroll from "./src/components/AutoScroll/AutoScroll";
 import AutoScrollMarquee from "./src/components/AutoScroll/AutoScrollMarquee";
 import BusinessTrust from "./src/components/Business/BusinessTrust";
 import Clients from "./src/components/Clients/Clients";
