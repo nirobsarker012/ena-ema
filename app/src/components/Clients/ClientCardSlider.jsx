@@ -13,7 +13,7 @@ const ClientCardSlider = () => {
       <Swiper
         modules={[Autoplay]}
         spaceBetween={24}
-        slidesPerView={3}
+        slidesPerView={4}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -23,19 +23,23 @@ const ClientCardSlider = () => {
           320: { slidesPerView: 1, spaceBetween: 16 },
           640: { slidesPerView: 1.2, spaceBetween: 16 },
           768: { slidesPerView: 2, spaceBetween: 20 },
-          1024: { slidesPerView: 3, spaceBetween: 24 },
+          1024: { slidesPerView: 4, spaceBetween: 24 },
         }}
       >
         {clientData.map((data) => (
           <SwiperSlide key={data.id}>
-            <div className="bg-card-bg rounded-[12px] p-[24px]">
+            <div className="bg-card-bg rounded-[12px] p-[24px] flex flex-col h-full">
               <div className="flex items-center mb-6">
                 <Rating value={data.rating} />
               </div>
+
               {/* Desc */}
-              <p className="mb-[36px] text-[16px] font-general">{data.desc}</p>
+              <p className="mb-[36px] text-[16px] font-general flex-grow">
+                {data.desc}
+              </p>
+
               {/* Client Info */}
-              <div className="flex items-center gap-[12px]">
+              <div className="flex items-center gap-[12px] mt-auto">
                 <img
                   width={36}
                   height={36}

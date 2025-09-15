@@ -22,7 +22,7 @@ const StudiesSlider = () => {
           1024: { slidesPerView: 2.5 },
           1280: { slidesPerView: 3 },
         }}
-        modules={[Pagination, Autoplay]}
+        modules={[Autoplay]}
         className="mySwiper"
       >
         {studiesData.map((data) => (
@@ -62,15 +62,6 @@ const StudiesSlider = () => {
       </Swiper>
 
       <style jsx global>{`
-        .swiper-pagination-bullet {
-          background: rgba(0, 0, 0, 0.3);
-          opacity: 1;
-          width: 8px;
-          height: 8px;
-        }
-        .swiper-pagination-bullet-active {
-          background: #003d25;
-        }
         .swiper-slide {
           height: auto;
         }

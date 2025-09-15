@@ -13,8 +13,10 @@ const RealCustomerFrom = () => {
               <input
                 type="text"
                 placeholder={item.title}
-                className="w-full font-general text-text-secondary-light border border-text-secondary-light/30 py-4 px-10 rounded-md hover:border-primary ease-in-out duration-300 outline-none bg-transparent"
+                className="w-full font-general text-text-secondary-light border border-text-secondary-light/30 py-4 px-10 rounded-md bg-transparent 
+             outline-none focus:border-primary focus:ring-1 focus:ring-primary ease-in-out duration-300"
               />
+
               <div className="absolute top-4 left-3">
                 <img
                   width={16}

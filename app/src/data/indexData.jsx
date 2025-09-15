@@ -109,6 +109,14 @@ export const studiesData = [
     desc2: "Clean and modern design with clear CTA",
     icon: "/assets/icons/greenRight.svg",
   },
+  {
+    id: 5,
+    title: "Flowpilot",
+    macImage: "assets/MacbookImg/MacBookPro3.png",
+    desc1: "20% high conversion than average in first week",
+    desc2: "Clean and modern design with clear CTA",
+    icon: "/assets/icons/greenRight.svg",
+  },
 ];
 
 // Price Data
@@ -250,6 +258,14 @@ export const clientData = [
     deg: "SaaS Founder",
     rating: 4,
     img: "assets/ClientImg/client4.png",
+  },
+  {
+    id: 5,
+    desc: `“Fast, reliable, and professional. My conversions doubled and I'm getting more quality leads than ever before."`,
+    name: "Mike Chen",
+    deg: "Fitness Coach",
+    rating: 4,
+    img: "assets/ClientImg/client2.png",
   },
 ];
 

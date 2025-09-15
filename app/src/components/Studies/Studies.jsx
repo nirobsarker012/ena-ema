@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Studies = () => {
   return (
-    <section className="container">
+    <section className="">
       <div className="flex items-center container justify-center flex-col text-center space-y-2">
         {/* Title */}
         <h1 className="font-manrope font-medium text-[48px] text-client-text">
