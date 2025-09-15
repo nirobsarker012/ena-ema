@@ -8,12 +8,12 @@ const AutoScroll = () => {
       {/* Auto scroll Section */}
       <div className="flex items-center gap-x-3.5">
         {autoPlayImg.map((img) => (
-          <div key={img.id} className="flex-shrink-0">
+          <div key={img.id} className="flex-shrink-0 last:mr-3">
             <Image
               height={470}
               width={700}
               src={img.icon}
-              alt=""
+              alt="ena-ema-project"
               className="rounded-xl object-contain w-[350px] lg:w-[700px]"
             />
           </div>
